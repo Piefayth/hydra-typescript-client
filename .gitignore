@@ -1,0 +1,9 @@
+node_modules/
+build/
+
+devnet/
+build/
+kupo/
+.vscode/
+
+main.ts

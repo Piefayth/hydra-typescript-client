@@ -1,0 +1,28 @@
+{
+  "name": "hydra-typescript-client",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "See the [user manual 📖](https://hydra.family/head-protocol/docs/getting-started/demo/).",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-specifier-resolution=node --loader ts-node/esm main.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Piefayth",
+  "license": "ISC",
+  "dependencies": {
+    "lucid-cardano": "^0.10.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
