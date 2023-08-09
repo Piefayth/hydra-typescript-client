@@ -1,6 +1,6 @@
 {
   "name": "hydra-typescript-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "See the [user manual 📖](https://hydra.family/head-protocol/docs/getting-started/demo/).",
   "main": "build/src/index.js",
