@@ -17,9 +17,6 @@
   },
   "author": "Piefayth",
   "license": "ISC",
-  "dependencies": {
-    "lucid-cardano": "^0.10.7"
-  },
   "devDependencies": {
     "@types/node": "^20.4.6",
     "ts-node": "^10.9.1",
