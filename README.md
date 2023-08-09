@@ -1,6 +1,8 @@
 # hydra-typescript-client
 
-`npm install hydra-typescript-client`
+```
+npm install hydra-typescript-client
+```
 
 Stateful Typescript client for [Hydra](https://github.com/input-output-hk/hydra). Works in browser (with a CORS proxy for some functionality) and node. 
 
